@@ -64,7 +64,7 @@ body {
 	top:0;
 	width: 100%;
 	height: 100%;
-	background-image: url('/assets/images/b.png');
+	background-image: url('/images/b.png');
 	background-size: cover;
 	background-position: center;
 	animation: zoomInOut 7s linear infinite;
