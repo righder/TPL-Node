@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Vichayan' });
 });
 
-router.post("/", (req, res) => {
+router.post("/", (req, res, next) => {
 
   var userDetails = new userModel({
     name: req.body.uname,
@@ -41,7 +41,6 @@ router.post("/", (req, res) => {
   });
 
 
-
   return res.json({
     "status": true,
     "response": 200,
@@ -49,5 +48,25 @@ router.post("/", (req, res) => {
   });
 });
 
+
+router.get('/getHired', function (req, res, next) {
+  res.render("getHired");
+});
+
+router.get('/getSkilled', function (req, res, next) {
+  res.render("getSkilled");
+});
+
+router.get('/selfBookPublishing', function (req, res, next) {
+  res.render("selfBookPublishing");
+});
+
+router.get('/selfArticlePublishing', function (req, res, next) {
+  res.render("selfArticlePublishing");
+});
+
+router.get('/researchAssitance', function (req, res, next) {
+  res.render("researchAssitance");
+});
 
 module.exports = router;
