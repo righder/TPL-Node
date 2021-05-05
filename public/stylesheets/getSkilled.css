@@ -1,3 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+    height: 100vw;
+} 
 
 
 /*--------------------navbar----------------*/
@@ -11,7 +20,7 @@
 }
 .wave{
     position: relative !important;
-    background: linear-gradient(90deg, #fbb9f0, #d6adee);
+    background: linear-gradient(90deg, #ffffff, #e4f7fd);
 }
 .wave::before{
     content: ' ';
@@ -29,39 +38,55 @@
 .section1 h1{
     margin-top: 15px;
     font-size: 40px;
-    font-weight: 400;
-    color: rgb(153, 6, 79);
+    font-weight: 600;
+    color: rgb(12, 58, 6);
 }
 .section1 h3{
     margin-top: 20px;
     font-size: 30px;
     font-weight: 600;
-    color: #692366;;
+    color: rgb(18, 17, 59);
 }
 .section1 h4{
-    color: #48414d; 
+    color: #10054e; 
     font-family: 'Trocchi', serif; 
     font-size: 25px; 
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-top: 5px;
+}
+.content1 {
+    margin-top: 20px;
 }
 
-.promo-title{
+/*----------------------------section-2------------------------------*/
+.section2 h1{
+    color: #10054e; 
     font-size: 40px;
     font-weight: 600;
-    margin-top: 102px;
+}
+.section2 h4{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 25px; 
+    font-family: 'Trocchi', serif; 
 }
 /*-----------------------section-3-----------------------------------*/
 .section3{
-    margin-top: 80px;
-    background: linear-gradient(90deg, #f5bcea, #ecd9f7);
+    background: linear-gradient(90deg, #ffffff, #e4f7fd);
 }
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+/*---------------------------section-4----------------*/
+
 /*--------------------------section-5-----------------------------------------*/
 .section5{
-    background: linear-gradient(90deg, #f5bcea, #ecd9f7);
-    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ffffff, #e4f7fd);
 }
+
 /*----------------meadia query-------------------*/
 @media screen and (max-width: 768px){
     .promo-title{
@@ -74,5 +99,4 @@
 
 
     /* ------ navbar ------ */
-
-
+    

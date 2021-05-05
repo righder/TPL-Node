@@ -12,16 +12,25 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+
+  
   
   .logo{
     height: 100px;
 }
+
+
+
 a:link{
     text-decoration: none;
 }
 /*-------------header--------------*/
 #header{
-    padding: 100px 0;
+    padding: 30px 0;
+    margin-top: auto;
+
+    
 }
 .header-row{
     display: flex;
@@ -34,6 +43,9 @@ a:link{
 .header-right-col img{
     width: 100%;
     padding-right: 100px 0;
+    
+  
+    
 }
 .header-left-col{
     flex-basis: 50%;
@@ -43,14 +55,52 @@ a:link{
 }
 .header-text button{
     margin: 80px 0;
+    
+
 }
+/**#header{
+    height: 100vh;
+    background-image: url(pic/background.png) ;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0 ;
+    
+}
+.header-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-right-col{
+    flex-basis: 50%;
+}
+.header-right-col img{
+    width: 100%;
+}
+.header-left-col{
+    flex-basis: 50%;
+}
+.header-text{
+    max-width: 350px;
+}
+.header-text button{
+    margin: 30px 0;
+
+}*/
 /*---------------header--------------*/
 
 .container{
     margin-right: 100px;
     margin-left: 100px;
 }
-
+/*.logo{
+    margin-top: 30px;
+    width: 100px;
+}*/
+/*.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
 h1{
     font-size: 34px;
 }*/
@@ -58,15 +108,15 @@ h1{
     height: 12px;
     width: 12px;
     display: inline-block;
-    background: #f67c92;
+    background: #df2783;
     margin: 15px 0;
 }
 /*read more button*/
 .common-btn{
-    padding: 18px 40px;
+    padding: 20px 40px;
     background: transparent;
     outline: none;
-    border: 2px solid #f67c92;
+    border: 2px solid #df2783;
     font-weight: bold;
     cursor: pointer;
 }
@@ -77,26 +127,27 @@ p{
     color: rgb(10, 1, 1);
 }
 .header-text button{
-    margin-top: 20px;
-    margin-bottom: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 /*button line*/
 .line-1{
     width: 15px;
     height: 15px;
-    background: #f67c92;
+    background: #df2783;
     display: inline-block;
 }
 .line-2{
     width: 80px;
     height: 1px;
-    background: #f67c92;
+    background: #df2783;
     display: inline-block;
 }
 .line-3{
     width: 60px;
     height: 1px;
-    background: #f67c92;
+    background: #df2783;
     display: inline-block;
 }
 .line{
@@ -115,10 +166,14 @@ p{
 /*----------------about,offer----------------*/
 
 #about,#offer{
-    padding: 100px 0;
+    /* padding: 30px 0; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+   
+    
+    
+    
 }
 .about-left-col{
     flex-basis: 50%;
@@ -150,6 +205,7 @@ p{
 #features{
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 .feature-row{
     width: 80%;
@@ -165,6 +221,8 @@ p{
 }
 .feature-col img{
     width: 100px;
+
+
 }
 .feature-col h4{
     margin-bottom: 15px;
@@ -172,19 +230,22 @@ p{
     font-weight: 400;
 }
 .feature-btn{
-    margin: 80px auto 0;
+    margin: 20px auto 0;
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: right;
 }
 .feature-btn .line{
     text-align: right;
     display: inline-block;
     margin-right: 25px;
 }
+
+
 /*----courses----*/
 #courses{
-    padding: 100px 0;
+     padding: 40px 0; 
+    margin: auto;
 }
 .course-row{
     display: flex;
@@ -205,11 +266,14 @@ p{
 }
 .course-text button{
     margin: 30px 0;
+    
+
 }
+
 
 /*----offer---*/
 #offer{
-    padding: 100px 0;
+    padding: 60px 0;
 }
 .offer-row{
     display: flex;
@@ -230,6 +294,7 @@ p{
 }
 .offer-text button{
     margin: 30px 0;
+
 }
 #offer button{
     margin: 30px 0;
@@ -247,7 +312,7 @@ p{
         
         margin-right: 50px;
         margin-left: 50px;
-        margin: -7rem ;
+        margin: -3rem ;
     }
     
     
@@ -272,23 +337,28 @@ p{
     #menuBtn{
         width: 40px;
         right: 50px;
+       
+       
+       
     }
     .common-btn{
         padding: 10px 16px;
        
     }
     #about{
-        margin-top: -4rem;
+        margin-top: -1rem;
     }
     .about-left-col,.about-right-col{
         flex-basis: 100%;
     }
     .about-text{
+        
         margin: 50px 50px 0;
         display: inline-block;
     }
     .about-text h2{
        font-size: 18px;
+       
     }
     .about-left-col img {
         width: 100%;
@@ -298,17 +368,20 @@ p{
         height: auto;
     }
     .feature-row{
-        margin-top: -7rem ;
+        margin-top: -6rem ;
+
     }
     .feature-col{
         flex-basis: 100%;
         margin-top: 20px;
+        
     }
     .course{
-        margin-top: -6rem;
+        margin: -9rem;
     }
     .course-left-col{
         flex-basis: 90%;
+        
     }
     .course-right-col{
         flex-basis: 100%;
@@ -318,6 +391,7 @@ p{
         margin-top: 60px;
         margin: 50px 50px 0 ;
         display: inline-block;
+     
      }
      h1{
          font-size: 25px;
@@ -330,7 +404,7 @@ p{
          margin-top: 70px;
      }
      #offer{
-         margin-bottom: -5rem;
+         margin-bottom: -3rem;
      }
  
     .course-text{
